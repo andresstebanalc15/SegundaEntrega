@@ -1,0 +1,87 @@
+/***********MODAL*************/
+
+.equis{
+    color: #FFF;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: red;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.busq{
+	display: none;
+}
+
+#form_login{
+    position: relative;
+    margin: auto;
+    background:#FFF;
+    width: auto;
+    text-align: center;
+    border-radius: 25px 0;
+	padding: 20px;
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+	z-index: 40;
+
+}
+
+#form_login img{
+    width: 100%;
+}
+
+.modal{
+
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.81);
+	display: none;
+	z-index: 1000;
+
+}
+
+.bodyModal{
+	height: 100%;
+	width: 100%;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal h1{
+	color: #0E725D;
+	text-transform: uppercase;
+}
+
+.modal h2{
+	text-transform: uppercase;
+	margin-top: 15px;
+
+}
+
+.text-corr{
+    text-align: center;
+    margin: revert;
+    font-weight: bold;
+}
+
+.content p img{
+
+    width: auto !important;
+}

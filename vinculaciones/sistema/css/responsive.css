@@ -1,0 +1,168 @@
+@media screen and (max-width: 1133px)
+{
+	#container {
+    padding: 45px 10px 10px;
+	}
+
+	.btnMenu{
+		display: block;
+	}
+
+	nav{
+		position: absolute;
+		width: 100%;
+		left: -100%;
+		transition: 0.5s all;
+	}
+	nav ul{
+		flex-direction: column;
+	}
+	nav ul li:hover ul{
+		display: none;
+	}
+	nav ul li{
+		width: 100%;
+		border-bottom: 1px solid #CCC;
+	}
+	nav ul li a{
+		text-align: left;
+		width: 100%;
+	}
+
+	nav li ul{
+		position: relative;
+		border-radius: 0;
+		background-color: #347560;
+	}
+
+	nav ul li ul a{
+		color: #FFF;
+	}
+
+	nav li ul li:last-child{
+		border-radius: 0;
+	}
+	nav .principal .arrow{
+		float: right;
+	}
+	header h1{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 992px)
+{
+	.optionsBar span {
+		display: none;
+	}
+	.photouser{
+		display: none;
+	}
+	.optionsBar p{
+		display: none;
+	}
+	.close {
+		display: block;
+	}
+
+	.dashboard{
+		flex-wrap: wrap; 	
+	}
+
+	.dashboard a{
+		color: #898989;
+		padding: 20px;
+		font-size: 20pt;
+		text-align: center;
+		border: 1px solid #D1D1D1;
+		border-radius: 0;
+		margin: 0;
+		background-color: #FFF;
+		width: 50%;
+	}
+
+	.dashboard img {
+	    width: 40px;
+	    height: 40px;
+	}
+
+	.containerDataUser, .containerDataEmpresa{
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 10px;
+	}
+
+	#container h1{
+		font-size: 12pt !important;
+	}
+
+	.logoUser, .logoEmpresa{
+		width: 150px;
+		height: 150px;
+	}
+
+	/*LISTA DE USUARIOS*/
+	.btn_new{
+		margin: 0;
+		margin-right: 10px;
+		padding: 5px 10 px;
+		font-size: 10pt;
+
+	}
+	.form_search{
+		width: 100%;
+		margin-top: 10px;
+		border: 0;
+	}
+	.containerTable{
+		width: 100%;
+		border: 5px solid #CCC;
+		overflow: scroll;
+	}
+	table{
+		width: 1000px;
+	}
+	table td, table th{
+		padding: 5px;
+		font-size: 10pt;
+	}
+
+	.bodyModal{
+		padding: 10px;
+	}
+	.list_form{
+	display: block;
+	}
+
+}
+
+@media screen and (max-width: 470px)
+{
+	.form_register {
+    width: 100%;	
+	}
+
+	form{
+		padding: 10px;
+	}
+
+	.btn_save{
+		width: 100%;
+		margin: 20px auto 15px auto;
+	}
+    
+    .dashboard a{
+		padding: 5px 2px;
+	}
+
+	.dashboard p{
+		font-size: 9pt;
+	}
+	.dashboard span{
+		font-size: 10pt;
+	}
+
+	.divdataUser label{
+	width: 80px;
+	}
+}
